@@ -630,3 +630,90 @@ body {
     color: var(--secondary-color);
     font-weight: bold;
 }
+/* Questions Page Styles */
+.unit-questions-nav {
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.unit-questions-nav h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.unit-questions-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.unit-questions-nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.unit-questions-nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--bg-white);
+}
+
+.unit-questions-block {
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.question-box {
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.2s ease;
+}
+
+.question-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.question-box h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.answer-box {
+    background-color: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+}
+
+.answer-box p {
+    margin-bottom: 0.75rem;
+}
+
+.answer-box p:last-child {
+    margin-bottom: 0;
+}
+
+.answer-box ul,
+.answer-box ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+}
+
+.answer-box li {
+    margin-bottom: 0.5rem;
+}
